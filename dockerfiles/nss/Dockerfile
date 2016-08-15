@@ -60,3 +60,4 @@ ADD fuzzers/cert_certificate_fuzzer.cc /src/nss/
 ADD fuzzers/seckey_privatekeyinfo_fuzzer.cc /src/nss/
 
 ADD build.sh /src/scripts/
+CMD /src/scripts/build.sh
